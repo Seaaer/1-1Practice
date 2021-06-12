@@ -9,6 +9,7 @@ namespace _1_1Practice {
     public partial class Default : System.Web.UI.Page {
         protected void Page_Load(object sender, EventArgs e) {
             mt_GetString();
+            Response.Write("<br />" + Math.Floor(1000 * 3.1415923) / 1000);
         }
     }
 }
